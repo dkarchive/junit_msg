@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='StringTests.xctest' tests='33' failures='0'>
+  <testsuite name='CPHtmlFilter_Tests' tests='15' failures='0'>
+    <testcase classname='CPHtmlFilter_Tests' name='testBadValueAttribute_javascript' time='0.008'/>
+    <testcase classname='CPHtmlFilter_Tests' name='testBlacklistAndAllowedAttribute' time='0.001'/>
+    <testcase classname='CPHtmlFilter_Tests' name='testBlacklistAttribute' time='0.001'/>
+    <testcase classname='CPHtmlFilter_Tests' name='testBlacklistTag' time='0.001'/>
+    <testcase classname='CPHtmlFilter_Tests' name='testBlacklistTagInnerIgnoring' time='0.001'/>
+    <testcase classname='CPHtmlFilter_Tests' name='testBlacklistTagMultipleLevelInnerIgnoring' time='0.001'/>
+    <testcase classname='CPHtmlFilter_Tests' name='testComments' time='0.001'/>
+    <testcase classname='CPHtmlFilter_Tests' name='testEmailDetector' time='0.002'/>
+    <testcase classname='CPHtmlFilter_Tests' name='testHtmlSpecialSymborls' time='0.001'/>
+    <testcase classname='CPHtmlFilter_Tests' name='testInputFromData' time='0.001'/>
+    <testcase classname='CPHtmlFilter_Tests' name='testPhoneDetector' time='0.008'/>
+    <testcase classname='CPHtmlFilter_Tests' name='testPlaintextStartEndTag' time='0.001'/>
+    <testcase classname='CPHtmlFilter_Tests' name='testSingletonTag' time='0.001'/>
+    <testcase classname='CPHtmlFilter_Tests' name='testStartEndTag' time='0.001'/>
+    <testcase classname='CPHtmlFilter_Tests' name='testUnknownTag' time='0.001'/>
+  </testsuite>
+  <testsuite name='IMThreadsBuilder_Tests' tests='17' failures='0'>
+    <testcase classname='IMThreadsBuilder_Tests' name='testBuildSortedThreadsFromRootContainers_chain' time='0.001'/>
+    <testcase classname='IMThreadsBuilder_Tests' name='testBuildSortedThreadsFromRootContainers_emptyRootTree' time='0.001'/>
+    <testcase classname='IMThreadsBuilder_Tests' name='testBuildSortedThreadsFromRootContainers_rootTree' time='0.001'/>
+    <testcase classname='IMThreadsBuilder_Tests' name='testBuildThreadsFromMessages' time='0.001'/>
+    <testcase classname='IMThreadsBuilder_Tests' name='testBuildThreadsFromMessages_nilMessageID' time='0.000'/>
+    <testcase classname='IMThreadsBuilder_Tests' name='testCanReachChildContainerEndlessRecursion' time='0.000'/>
+    <testcase classname='IMThreadsBuilder_Tests' name='testCreateContainersAndLinkByReferencesWithMessages_2childs' time='0.001'/>
+    <testcase classname='IMThreadsBuilder_Tests' name='testCreateContainersAndLinkByReferencesWithMessages_2childsNoParentMessage' time='0.001'/>
+    <testcase classname='IMThreadsBuilder_Tests' name='testCreateContainersAndLinkByReferencesWithMessages_chain' time='0.001'/>
+    <testcase classname='IMThreadsBuilder_Tests' name='testFindRootContainers' time='0.000'/>
+    <testcase classname='IMThreadsBuilder_Tests' name='testGroupBySubjects' time='0.000'/>
+    <testcase classname='IMThreadsBuilder_Tests' name='testPruneContainers_chainNoChange' time='0.001'/>
+    <testcase classname='IMThreadsBuilder_Tests' name='testPruneContainers_deleteEmptyLeaf' time='0.000'/>
+    <testcase classname='IMThreadsBuilder_Tests' name='testPruneContainers_deleteEmptyWithNoChildren' time='0.000'/>
+    <testcase classname='IMThreadsBuilder_Tests' name='testPruneContainers_promoteDeleteRoot' time='0.000'/>
+    <testcase classname='IMThreadsBuilder_Tests' name='testPruneContainers_promoteMiddleInChain' time='0.001'/>
+    <testcase classname='IMThreadsBuilder_Tests' name='testPruneContainers_promoteRootTreeNoChange' time='0.001'/>
+  </testsuite>
+  <testsuite name='StringTests' tests='1' failures='0'>
+    <testcase classname='StringTests' name='testPhoneNumbers' time='0.001'/>
+  </testsuite>
+</testsuites>

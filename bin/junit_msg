@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+$LOAD_PATH.push File.expand_path('../../lib', __FILE__)
+
+require 'junit_msg'
+
+message = JunitMsg.cli ARGV
+puts message
+
+exit 1 if message.include? JunitMsg::JMERROR

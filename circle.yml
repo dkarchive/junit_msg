@@ -1,0 +1,13 @@
+machine:
+  ruby:
+    - 2.4.0
+
+dependencies:
+  post:
+    - rake install
+
+test:
+  override:
+    - bundle exec rspec -fd --color -r rspec_junit_formatter --format RspecJunitFormatter -o $CIRCLE_TEST_REPORTS/rspec/junit.xml
+    - junit_msg
+    - junit_msg $CIRCLE_TEST_REPORTS/rspec/junit.xml -d

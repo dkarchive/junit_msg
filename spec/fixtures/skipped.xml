@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.063" errors="0" skipped="1" tests="1" name="org.apache.abdera.protocol.server.test.filesystem.FilesystemTest">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="C:\Documents and Settings\upston\.m2\repository"/>
+    <property name="osgi.bundles.defaultStartLevel" value="4"/>
+    <property name="org.eclipse.debug.ui.breakpoints.toggleFactoriesUsed" value="false"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="org.osgi.supports.framework.extension" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
+    <property name="org.eclipse.jdt.debug.ui.debuggerActive" value="false"/>
+    <property name="eclipse.p2.profile" value="SDKProfile"/>
+    <property name="os.name" value="Windows XP"/>
+    <property name="sun.boot.class.path" value="C:\Apps\jdk1.6.0_14\jre\lib\resources.jar;C:\Apps\jdk1.6.0_14\jre\lib\rt.jar;C:\Apps\jdk1.6.0_14\jre\lib\sunrsasign.jar;C:\Apps\jdk1.6.0_14\jre\lib\jsse.jar;C:\Apps\jdk1.6.0_14\jre\lib\jce.jar;C:\Apps\jdk1.6.0_14\jre\lib\charsets.jar;C:\Apps\jdk1.6.0_14\jre\classes"/>
+    <property name="org.eclipse.jdt.debug.ui.supportsInstanceRetrieval" value="false"/>
+    <property name="osgi.ws" value="win32"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.runtime.version" value="1.6.0_14-ea-b05"/>
+    <property name="osgi.instance.area" value="file:/C:/Projects/workspace/"/>
+    <property name="user.name" value="upston"/>
+    <property name="osgi.framework.extensions" value="reference:file:org.eclipse.equinox.weaving.hook_1.0.0.200902121956.jar"/>
+    <property name="org.osgi.framework.system.packages" value="javax.accessibility,javax.activation,javax.activity,javax.annotation,javax.annotation.processing,javax.crypto,javax.crypto.interfaces,javax.crypto.spec,javax.imageio,javax.imageio.event,javax.imageio.metadata,javax.imageio.plugins.bmp,javax.imageio.plugins.jpeg,javax.imageio.spi,javax.imageio.stream,javax.jws,javax.jws.soap,javax.lang.model,javax.lang.model.element,javax.lang.model.type,javax.lang.model.util,javax.management,javax.management.loading,javax.management.modelmbean,javax.management.monitor,javax.management.openmbean,javax.management.relation,javax.management.remote,javax.management.remote.rmi,javax.management.timer,javax.naming,javax.naming.directory,javax.naming.event,javax.naming.ldap,javax.naming.spi,javax.net,javax.net.ssl,javax.print,javax.print.attribute,javax.print.attribute.standard,javax.print.event,javax.rmi,javax.rmi.CORBA,javax.rmi.ssl,javax.script,javax.security.auth,javax.security.auth.callback,javax.security.auth.kerberos,javax.security.auth.login,javax.security.auth.spi,javax.security.auth.x500,javax.security.cert,javax.security.sasl,javax.sound.midi,javax.sound.midi.spi,javax.sound.sampled,javax.sound.sampled.spi,javax.sql,javax.sql.rowset,javax.sql.rowset.serial,javax.sql.rowset.spi,javax.swing,javax.swing.border,javax.swing.colorchooser,javax.swing.event,javax.swing.filechooser,javax.swing.plaf,javax.swing.plaf.basic,javax.swing.plaf.metal,javax.swing.plaf.multi,javax.swing.plaf.synth,javax.swing.table,javax.swing.text,javax.swing.text.html,javax.swing.text.html.parser,javax.swing.text.rtf,javax.swing.tree,javax.swing.undo,javax.tools,javax.transaction,javax.transaction.xa,javax.xml,javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.bind.helpers,javax.xml.bind.util,javax.xml.crypto,javax.xml.crypto.dom,javax.xml.crypto.dsig,javax.xml.crypto.dsig.dom,javax.xml.crypto.dsig.keyinfo,javax.xml.crypto.dsig.spec,javax.xml.datatype,javax.xml.namespace,javax.xml.parsers,javax.xml.soap,javax.xml.stream,javax.xml.stream.events,javax.xml.stream.util,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.sax,javax.xml.transform.stax,javax.xml.transform.stream,javax.xml.validation,javax.xml.ws,javax.xml.ws.handler,javax.xml.ws.handler.soap,javax.xml.ws.http,javax.xml.ws.soap,javax.xml.ws.spi,javax.xml.ws.wsaddressing,javax.xml.xpath,org.ietf.jgss,org.omg.CORBA,org.omg.CORBA_2_3,org.omg.CORBA_2_3.portable,org.omg.CORBA.DynAnyPackage,org.omg.CORBA.ORBPackage,org.omg.CORBA.portable,org.omg.CORBA.TypeCodePackage,org.omg.CosNaming,org.omg.CosNaming.NamingContextExtPackage,org.omg.CosNaming.NamingContextPackage,org.omg.Dynamic,org.omg.DynamicAny,org.omg.DynamicAny.DynAnyFactoryPackage,org.omg.DynamicAny.DynAnyPackage,org.omg.IOP,org.omg.IOP.CodecFactoryPackage,org.omg.IOP.CodecPackage,org.omg.Messaging,org.omg.PortableInterceptor,org.omg.PortableInterceptor.ORBInitInfoPackage,org.omg.PortableServer,org.omg.PortableServer.CurrentPackage,org.omg.PortableServer.POAManagerPackage,org.omg.PortableServer.POAPackage,org.omg.PortableServer.portable,org.omg.PortableServer.ServantLocatorPackage,org.omg.SendingContext,org.omg.stub.java.rmi,org.w3c.dom,org.w3c.dom.bootstrap,org.w3c.dom.css,org.w3c.dom.events,org.w3c.dom.html,org.w3c.dom.ls,org.w3c.dom.ranges,org.w3c.dom.stylesheets,org.w3c.dom.traversal,org.w3c.dom.views,org.w3c.dom.xpath,org.xml.sax,org.xml.sax.ext,org.xml.sax.helpers"/>
+    <property name="eclipse.launcher" value="C:\Apps\eclipse3.5M7\eclipse.exe"/>
+    <property name="org.eclipse.update.resolution_url" value=""/>
+    <property name="osgi.frameworkClassPath" value="., file:c:/Apps/eclipse3.5M7/plugins/org.eclipse.equinox.weaving.hook_1.0.0.200902121956.jar"/>
+    <property name="org.osgi.framework.language" value="en"/>
+    <property name="user.language" value="en"/>
+    <property name="org.osgi.framework.processor" value="x86"/>
+    <property name="osgi.syspath" value="c:\Apps\eclipse3.5M7\plugins"/>
+    <property name="sun.boot.library.path" value="C:\Apps\jdk1.6.0_14\jre\bin"/>
+    <property name="osgi.manifest.cache" value="C:\Apps\eclipse3.5M7\configuration\org.eclipse.osgi\manifests"/>
+    <property name="org.eclipse.jdt.debug.ui.instanceof.IJavaStackFrame" value="false"/>
+    <property name="java.version" value="1.6.0_14-ea"/>
+    <property name="org.osgi.framework.os.name" value="WindowsXP"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="osgi.bundles" value="reference:file:org.eclipse.equinox.weaving.hook_1.0.0.200902121956.jar,reference:file:org.eclipse.equinox.simpleconfigurator_1.0.100.v20090429-2126.jar@1:start"/>
+    <property name="java.endorsed.dirs" value="C:\Apps\jdk1.6.0_14\jre\lib\endorsed"/>
+    <property name="osgi.tracefile" value="C:\Projects\workspace\.metadata\trace.log"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="eclipse.application" value="org.eclipse.ui.ide.workbench"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="org.osgi.framework.vendor" value="Eclipse"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="user.country" value="GB"/>
+    <property name="org.eclipse.equinox.launcher.splash.location" value="C:\Apps\eclipse3.5M7\\plugins\org.eclipse.platform_3.3.200.v200904302300\splash.bmp"/>
+    <property name="java.home" value="C:\Apps\jdk1.6.0_14\jre"/>
+    <property name="osgi.os" value="win32"/>
+    <property name="eclipse.commands" value="-os
+win32
+-ws
+win32
+-arch
+x86
+-showsplash
+C:\Apps\eclipse3.5M7\\plugins\org.eclipse.platform_3.3.200.v200904302300\splash.bmp
+-launcher
+C:\Apps\eclipse3.5M7\eclipse.exe
+-name
+Eclipse
+--launcher.library
+C:\Apps\eclipse3.5M7\plugins/org.eclipse.equinox.launcher.win32.win32.x86_1.0.200.v20090306-1900\eclipse_1200.dll
+-startup
+C:\Apps\eclipse3.5M7\plugins/org.eclipse.equinox.launcher_1.0.200.v20090429-1630.jar
+-vm
+C:\Apps\jdk1.6.0_14\jre\bin\server\jvm.dll
+"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="osgi.splashLocation" value="C:\Apps\eclipse3.5M7\\plugins\org.eclipse.platform_3.3.200.v200904302300\splash.bmp"/>
+    <property name="os.version" value="5.1"/>
+    <property name="osgi.arch" value="x86"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="14.0-b13"/>
+    <property name="org.osgi.supports.framework.fragment" value="true"/>
+    <property name="user.variant" value=""/>
+    <property name="osgi.framework.shape" value="jar"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="osgi.instance.area.default" value="file:/C:/Documents and Settings/upston/workspace/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="org.osgi.framework.version" value="1.5.0"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="osgi.install.area" value="file:/C:/Apps/eclipse3.5M7/"/>
+    <property name="osgi.framework" value="file:/c:/Apps/eclipse3.5M7/plugins/org.eclipse.osgi_3.5.0.v20090429-1630.jar"/>
+    <property name="user.home" value="C:\Documents and Settings\upston"/>
+    <property name="org.eclipse.equinox.simpleconfigurator.configUrl" value="file:org.eclipse.equinox.simpleconfigurator/bundles.info"/>
+    <property name="osgi.bundlestore" value="C:\Apps\eclipse3.5M7\configuration\org.eclipse.osgi\bundles"/>
+    <property name="osgi.splashPath" value="platform:/base/plugins/org.eclipse.platform"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="osgi.nl" value="en_GB"/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="java.library.path" value="C:\Apps\eclipse3.5M7;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Apps/jdk1.6.0_14/jre/bin/server;C:/Apps/jdk1.6.0_14/jre/bin;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Oracle\806\bin;C:\Oracle\806\jdk\bin;C:\Program Files\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files\TortoiseSVN\bin;c:\apps\jdk1.6.0_14\bin;c:\apps\jruby-1.2.0\bin;c:\apps\apache-maven-2.1.0\bin"/>
+    <property name="org.osgi.framework.os.version" value="5.1.0"/>
+    <property name="eclipse.startTime" value="1242146557531"/>
+    <property name="eclipse.p2.data.area" value="@config.dir/../p2/"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.class.path" value="C:\Apps\eclipse3.5M7\plugins/org.eclipse.equinox.launcher_1.0.200.v20090429-1630.jar"/>
+    <property name="org.eclipse.update.reconcile" value="false"/>
+    <property name="eclipse.vm" value="C:\Apps\jdk1.6.0_14\jre\bin\server\jvm.dll"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="org.eclipse.jdt.debug.ui.supportsForceReturn" value="false"/>
+    <property name="sun.os.patch.level" value="Service Pack 3"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="surefire.test.class.path" value="C:\Projects\workspace\abdera\adapters\filesystem\target\test-classes;C:\Projects\workspace\abdera\adapters\filesystem\target\classes;C:\Documents and Settings\upston\.m2\repository\org\mortbay\jetty\jetty\6.1.5\jetty-6.1.5.jar;C:\Documents and Settings\upston\.m2\repository\org\mortbay\jetty\jetty-util\6.1.5\jetty-util-6.1.5.jar;C:\Documents and Settings\upston\.m2\repository\org\mortbay\jetty\servlet-api-2.5\6.1.5\servlet-api-2.5-6.1.5.jar;C:\Projects\workspace\abdera\server\pom.xml;C:\Documents and Settings\upston\.m2\repository\commons-codec\commons-codec\1.3\commons-codec-1.3.jar;C:\Projects\workspace\abdera\core\pom.xml;C:\Projects\workspace\abdera\dependencies\i18n\pom.xml;C:\Documents and Settings\upston\.m2\repository\org\apache\geronimo\specs\geronimo-activation_1.0.2_spec\1.1\geronimo-activation_1.0.2_spec-1.1.jar;C:\Documents and Settings\upston\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;C:\Projects\workspace\abdera\parser\pom.xml;C:\Documents and Settings\upston\.m2\repository\org\apache\ws\commons\axiom\axiom-impl\1.2.5\axiom-impl-1.2.5.jar;C:\Documents and Settings\upston\.m2\repository\org\apache\ws\commons\axiom\axiom-api\1.2.5\axiom-api-1.2.5.jar;C:\Documents and Settings\upston\.m2\repository\jaxen\jaxen\1.1.1\jaxen-1.1.1.jar;C:\Documents and Settings\upston\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Documents and Settings\upston\.m2\repository\xerces\xercesImpl\2.8.1\xercesImpl-2.8.1.jar;C:\Documents and Settings\upston\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0.1\geronimo-stax-api_1.0_spec-1.0.1.jar;C:\Documents and Settings\upston\.m2\repository\org\codehaus\woodstox\wstx-asl\3.2.6\wstx-asl-3.2.6.jar;C:\Documents and Settings\upston\.m2\repository\javax\servlet\servlet-api\2.4\servlet-api-2.4.jar;C:\Documents and Settings\upston\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar;C:\Documents and Settings\upston\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Projects\workspace\abdera\client\pom.xml;C:\Documents and Settings\upston\.m2\repository\commons-httpclient\commons-httpclient\3.1-rc1\commons-httpclient-3.1-rc1.jar;C:\Documents and Settings\upston\.m2\repository\junit\junit\4.3\junit-4.3.jar;"/>
+    <property name="java.io.tmpdir" value="C:\DOCUME~1\upston\LOCALS~1\Temp\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="eclipse.product" value="org.eclipse.sdk.ide"/>
+    <property name="eclipse.home.location" value="file:/C:/Apps/eclipse3.5M7/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.ext.dirs" value="C:\Apps\jdk1.6.0_14\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Projects\workspace\abdera\adapters\filesystem"/>
+    <property name="org.osgi.supports.framework.requirebundle" value="true"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Server VM"/>
+    <property name="org.apache.commons.logging.Log" value="org.apache.commons.logging.impl.NoOpLog"/>
+    <property name="basedir" value="C:\Projects\workspace\abdera\adapters\filesystem"/>
+    <property name="maven.mode.standalone" value="true"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="osgi.framework.version" value="3.5.0.v20090429-1630"/>
+    <property name="eclipse.buildId" value="I20090430-2300"/>
+    <property name="eclipse.vmargs" value="-Xms100m
+-Xmx380m
+-XX:MaxPermSize=190m
+-Djava.class.path=C:\Apps\eclipse3.5M7\plugins/org.eclipse.equinox.launcher_1.0.200.v20090429-1630.jar
+"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="org.osgi.framework.executionenvironment" value="OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JRE-1.1,J2SE-1.2,J2SE-1.3,J2SE-1.4,J2SE-1.5,JavaSE-1.6"/>
+    <property name="osgi.logfile" value="C:\Projects\workspace\.metadata\.log"/>
+    <property name="osgi.configuration.area" value="file:/C:/Apps/eclipse3.5M7/configuration/"/>
+  </properties>
+  <testcase time="0" classname="org.apache.abdera.protocol.server.test.filesystem.FilesystemTest" name="org.apache.abdera.protocol.server.test.filesystem.FilesystemTest">
+    <skipped/>
+  </testcase>
+</testsuite>
