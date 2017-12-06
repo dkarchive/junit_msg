@@ -19,6 +19,6 @@ Gem::Specification.new do |spec|
   spec.executables   = [JunitMsg::PROJECT]
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'ox', '2.5'
+  spec.add_runtime_dependency 'ox', '2.8.2'
   spec.add_runtime_dependency 'colored', '1.2'
 end
